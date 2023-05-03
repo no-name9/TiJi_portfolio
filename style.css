@@ -309,6 +309,11 @@ h4 {
 	.container {
 		padding-inline: 10px;
 	}
+	@media (prefers-color-scheme: dark){
+		.burger-btn {
+			--burger-stick-color: white;
+		}
+	}
 }
 
 
@@ -358,6 +363,7 @@ h4 {
 .eyes {
 	gap: 9px;
 	margin-inline-end: 11px;
+	color-scheme: only light;
 }
 .eye {
 	background-color: white;
@@ -699,6 +705,7 @@ button span {
 .section-6__wrap {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	color-scheme: only light;
 }
 .section-6, .section-6 .t-2 {
 	color: var(--color-2);
@@ -913,7 +920,7 @@ button span {
 
 .section-7 .btn-2.--active path:first-child {
 	stroke: var(--this-color);
-	fill: white;
+	fill: transparent;
 }
 .section-7 .btn-2.--active path:last-child {
 	fill: var(--this-color);
@@ -1072,6 +1079,7 @@ footer {
 	right: 0;
 	z-index: -1;
 	transform: translateY(-48px);
+	color-scheme: only light;
 }
 .footer__socials {
 	gap: 20px;
@@ -1093,6 +1101,7 @@ footer .x-8 {
 	text-decoration-skip-ink: none;
 	gap: 20px;
 	white-space: nowrap;
+	color-scheme: only light;
 }
 .footer__terms br {
 	display: none;
